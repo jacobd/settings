@@ -102,25 +102,36 @@
     // By deault, eval is allowed.
     "jshint_options":
     {
-        // To fix column positions for JSHint errors you may want to add `"indent": 1` to your
-        // **User** "jshint_options". This issue affects users with tabs for indentation.
-        // This fix was reverted due to a conflict with using the `"white": true` option.
-        // "indent": 1,
-        "camelcase": true,
-        "curly": true,
-        "eqeqeq": true,
-        "evil": true,
-        "indent": 2,
-        "newcap": true,
-        "quotmark": "single",
-        "unused": true,
-        "onevar": true,
-        "regexdash": true,
-        "browser": true,
-        "wsh": true,
-        "white": true,
-        "trailing": true,
-        "sub": true
+      "bitwise": true,
+      "browser": true,
+      "camelcase": true,
+      "curly": true,
+      "es5": true,
+      "eqeqeq": true,
+      "evil": true,
+      "forin": false,
+      "globalstrict": true,
+      "immed": true,
+      "indent": 2,
+      "latedef": true,
+      "newcap": true,
+      "noarg": true,
+      "noempty": true,
+      "node": true,
+      "nonew": true,
+      "nonstandard": true,,
+      "onevar": true
+      "plusplus": false,
+      "predef": [],
+      "quotmark": "single",
+      "regexdash": true,
+      "strict": false,
+      "sub": true,
+      "trailing": true,
+      "undef": true,
+      "unused": true,
+      "white": true,
+      "wsh": true
     },
 
     // A list of command line options to send to gjslint. --nobeep is always sent.
