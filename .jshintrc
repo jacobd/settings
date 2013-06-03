@@ -16,8 +16,8 @@
   "noempty": true,
   "node": true,
   "nonew": true,
-  "nonstandard": true,,
-  "onevar": true
+  "nonstandard": true,
+  "onevar": true,
   "plusplus": false,
   "predef": [],
   "quotmark": "single",
